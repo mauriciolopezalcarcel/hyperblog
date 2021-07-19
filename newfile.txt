@@ -1,0 +1,27 @@
+Probando git
+curso de git de platzi
+
+comando inicial 
+  git init
+
+  git status:
+    verifica los archivos que aun no han sido añadidos al git
+  
+  git add:
+    agrega los archivos al git para que puedan ser trackeados
+  
+  git rm:
+    retira el archivo de la lista de archivos 
+  
+  git rm --cached <file>:
+    lo retira por completo de la lista de archivos a seguir (trackear)
+  
+  git commit -m "mensaje":
+    carga el archivo en el repositorio con los cambios que tiene
+  
+  git config 
+    --list: muestra las configuraciones de git actuales
+    --list --show-origin: muestra la ubicacion de la configuracion de git
+  
+  git config --global user.name "Mauricio Lopez"
+  git config --global user.mail "gangrel.vf@gmail.com"
